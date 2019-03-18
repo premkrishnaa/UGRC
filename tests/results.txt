@@ -1,0 +1,310 @@
+./graphmatching -A -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_1.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_1.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 1
+./graphmatching -A -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_2.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_2.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 2
+./graphmatching -A -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_3.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_3.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 3
+./graphmatching -A -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_4.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_4.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 4
+./graphmatching -A -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_5.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_5.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 5
+./graphmatching -A -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_6.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 1
+(r650,r21)
+./graphmatching -B -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_6.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 6
+./graphmatching -A -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_7.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_7.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 7
+./graphmatching -A -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_8.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_8.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 8
+./graphmatching -A -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_9.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_9.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 9
+./graphmatching -A -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_10.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d1/d1_/1000_1000_5_1_10.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 10
+./graphmatching -A -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_1.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_1.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 1
+45c45
+< r14,h713,5
+---
+> r14,h952,2
+435c435
+< r51,h913,1
+---
+> r51,h631,2
+472c472
+< r545,h952,1
+---
+> r545,h713,2
+628c628
+< r697,h631,1
+---
+> r697,h913,2
+./graphmatching -A -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_2.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 1
+(r312,r112)
+./graphmatching -B -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_2.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 2
+55c55
+< r15,h892,1
+---
+> r15,h820,5
+87c87
+< r18,h820,2
+---
+> r18,h341,5
+160c160
+< r25,h341,1
+---
+> r25,h892,2
+./graphmatching -A -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_3.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_3.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 3
+./graphmatching -A -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_4.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_4.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 4
+517c517
+< r597,h63,4
+---
+> r597,h642,5
+693c693
+< r767,h642,1
+---
+> r767,h63,4
+./graphmatching -A -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_5.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 2
+(r652,r50)
+(r939,r688)
+./graphmatching -B -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_5.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 5
+./graphmatching -A -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_6.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_6.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 6
+./graphmatching -A -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_7.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_7.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 7
+./graphmatching -A -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_8.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_8.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 8
+219c219
+< r306,h701,4
+---
+> r306,h660,5
+391c391
+< r469,h853,1
+---
+> r469,h421,5
+445c445
+< r520,h660,2
+---
+> r520,h853,1
+649c649
+< r72,h421,2
+---
+> r72,h701,4
+./graphmatching -A -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_9.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 1
+(r621,r229)
+./graphmatching -B -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_9.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 9
+./graphmatching -A -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_10.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 1
+(r383,r35)
+./graphmatching -B -s -t -i  ../datasets/d2/d2_/1000_1000_5_1_10.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 10
+./graphmatching -A -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_1.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 2
+(r467,r301)
+(r928,r520)
+./graphmatching -B -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_1.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 1
+262c262
+< r384,h283,1
+---
+> r384,h171,2
+765c765
+< r944,h171,4
+---
+> r944,h283,5
+./graphmatching -A -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_2.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 2
+(r282,r26)
+(r796,r785)
+./graphmatching -B -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_2.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 2
+./graphmatching -A -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_3.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 3
+(r38,r224)
+(r625,r347)
+(r656,r341)
+./graphmatching -B -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_3.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 3
+./graphmatching -A -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_4.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 2
+(r470,r389)
+(r967,r806)
+./graphmatching -B -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_4.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 4
+./graphmatching -A -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_5.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_5.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 5
+./graphmatching -A -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_6.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 1
+(r831,r735)
+./graphmatching -B -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_6.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 6
+./graphmatching -A -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_7.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 1
+(r887,r555)
+./graphmatching -B -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_7.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 7
+./graphmatching -A -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_8.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_8.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 8
+./graphmatching -A -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_9.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 3
+(r533,r149)
+(r827,r779)
+(r875,r687)
+./graphmatching -B -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_9.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 9
+85c85
+< r190,h255,3
+---
+> r190,h409,5
+122c122
+< r228,h921,2
+---
+> r228,h255,4
+230c230
+< r350,h409,2
+---
+> r350,h921,5
+./graphmatching -A -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_10.txt -o out1.txt
+Exchange Stability
+Total blocking pairs: 0
+./graphmatching -B -s -t -i  ../datasets/d3/d3_/1000_1000_5_1_10.txt -o out2.txt
+Exchange Stability
+Total blocking pairs: 0
+diff: 10
+206c206
+< r330,h760,1
+---
+> r330,h388,3
+384c384
+< r533,h388,2
+---
+> r533,h760,3
